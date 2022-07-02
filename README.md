@@ -6,4 +6,7 @@ ProDESIGN-LE's corresponding article, _Accurate and efficient protein sequence d
 ## How to submit a pdb file for protein sequence prediction
 Use the command below to send a pdb file to ProDESIGN-LE server for sequence design, substitute the "1812_a.pdb" (downlodable at this repo) with your own pdb file path. You will receive a designed sequence after ~30 seconds if your pdb contains 100 residues. Don't recommend submit a pdb with residues excedding 200, as ProDESIGN-LE is currently running on only 2 cpus.
 
+If you receive error code `503' with error message 'Prediction failed', please make sure there is no break points in the backbone contained in your pdb file, and each residues should have at least 3 atoms (N, Ca, C).
+Try to submit "1812_a.pdb" in this page as a test run, as this pdb have already be tested.
+
 ```curl -X POST -H "Content-Type: text/plain" --data-binary @1812_a.pdb http://81.70.37.223:10088/predictions/prodesign```
