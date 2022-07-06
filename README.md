@@ -5,4 +5,4 @@ ProDESIGN-LE's corresponding article, _Accurate and efficient protein sequence d
 
 
 If you receive error code `503' with error message 'Prediction failed', please make sure there is no break point in the backbone contained in your pdb file, and each residues should contain at least following atoms: N, Ca, and C.
-Try to submit "1812_a.pdb" in this page as a test run, as this pdb file have already been tested.
+Try to submit "0738.pdb" in this page as a test run, as this pdb file have already been tested.
