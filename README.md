@@ -3,6 +3,10 @@ ProDESIGN-LE, which is an accurate and efficient protein sequence design approac
 
 ProDESIGN-LE's corresponding article, _Accurate and efficient protein sequence design through learning concise local environment of residues_, is currently under review. The [bioRxiv verison](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v4) is available currently, and a [ProDESIGN-LE server](http://81.70.37.223/) is now available for non-commercial use.
 
+## Usage:
+
+```python3 design.py best.pkl 0008.pdb -o . -c . -d cuda:0```
+
 ## References
 1. Carl Pabo. Molecular technology: designing proteins and peptides. Nature, 301(5897):200–200, 1983.
 2. Aarón Terán, Aida Jaafar, Ana E Sánchez-Peláez, M Carmen Torralba, and Ángel Gutiérrez. Design and catalytic studies of structural and functional models of the catechol oxidase enzyme. Journal of Biological Inorganic Chemistry, 25(4):671–683, 2020.
