@@ -7,6 +7,10 @@ ProDESIGN-LE's corresponding article, _Accurate and efficient protein sequence d
 
 ```python3 design.py best.pkl 0008.pdb -o . -c . -d cuda:0```
 
+## Requirements:
+
+TODO
+
 ## References
 1. Carl Pabo. Molecular technology: designing proteins and peptides. Nature, 301(5897):200–200, 1983.
 2. Aarón Terán, Aida Jaafar, Ana E Sánchez-Peláez, M Carmen Torralba, and Ángel Gutiérrez. Design and catalytic studies of structural and functional models of the catechol oxidase enzyme. Journal of Biological Inorganic Chemistry, 25(4):671–683, 2020.
