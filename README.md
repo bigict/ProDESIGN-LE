@@ -7,6 +7,8 @@ ProDESIGN-LE's corresponding article, _Accurate and efficient protein sequence d
 
 ```python3 design.py best.pkl 0008.pdb -o . -c . -d cuda:0```
 
+python3 design.py best.pkl <PDB dir> [-o output_path] [-o cache_path] [-d device] [-n number_designed_seqeunce]
+
 ## Requirements:
 
 TODO
