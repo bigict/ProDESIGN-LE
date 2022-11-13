@@ -10,8 +10,9 @@ ProDESIGN-LE's corresponding article, _Accurate and efficient protein sequence d
 python3 design.py best.pkl <PDB dir> [-o output_path] [-c cache_path] [-d device] [-n number_designed_seqeunce]
 
 ## Requirements:
-
-TODO
+1. pytorch
+2. einops
+3. biopython
 
 ## References
 1. Carl Pabo. Molecular technology: designing proteins and peptides. Nature, 301(5897):200–200, 1983.
