@@ -15,10 +15,10 @@ Fix specific residues during design.
 Add the flag ```--constrain <constrain.txt>```, where ```constrain.txt``` is a file structured as follows:
 ```
 1 A
-2 B
-3 C
+2 R
+3 N
 ```
-The first column represents the 1-indexed index of the residue, while the second column represents the one-letter residue symbol. Add as many row as you like.
+The first column represents the 1-indexed index of the residue, while the second column represents the one-letter residue symbol. Add as many rows as you like.
 
 ## Requirements:
 1. pytorch
