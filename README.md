@@ -1,7 +1,7 @@
 # ProDESIGN-LE
 ProDESIGN-LE, which is an accurate and efficient protein sequence design approach, designs a sequence using a transformer to iteratively maximize the overall fitness between residues and their local environments.
 
-ProDESIGN-LE's corresponding article, _Accurate and efficient protein sequence design through learning concise local environment of residues_, is currently [published](https://academic.oup.com/bioinformatics/article/39/3/btad122/7077134), and a [ProDESIGN-LE server](http://81.70.37.223/) is now available for non-commercial use.
+ProDESIGN-LE's corresponding article, _Accurate and efficient protein sequence design through learning concise local environment of residues_, is currently [published](https://academic.oup.com/bioinformatics/article/39/3/btad122/7077134).
 
 ## Basic Usage:
 
