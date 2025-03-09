@@ -21,6 +21,6 @@ Add the flag ```--constrain <constrain.txt>```, where ```constrain.txt``` is a f
 The first column represents the 1-indexed index of the residue, while the second column represents the one-letter residue symbol. Add as many rows as you like.
 
 ## Requirements:
-1. pytorch
-2. einops
-3. biopython
+1. pytorch  (checkout https://pytorch.org/get-started/locally/ for how to install)
+2. einops  `pip install einops`
+3. biopython  `pip install biopython`
